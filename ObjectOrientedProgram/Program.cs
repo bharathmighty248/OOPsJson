@@ -5,11 +5,11 @@ namespace ObjectOrientedProgram
 {
     class Program
     {
-        const string INVENTORY_JSON =@"C:\Users\USER\source\repos\ObjectOrientedProgram\InventoryManagement\inventory.json";
+        const string INVENTORY_JSON = @"D:\BridgeLabz Problems Git Hub Local Repository\OOPsJson\ObjectOrientedProgram\InventoryManagement\inventory.json";
         static void Main(string[] args)
         {
             InventoryMain main = new InventoryMain();
-            main.DisplayData(INVENTORY_JSON);
+            main.ReadJsonFile(INVENTORY_JSON);
         }
     }
 }
